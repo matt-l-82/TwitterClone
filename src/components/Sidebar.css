@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.sidebar-wrapper {
+    width: 400px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    min-height: 30px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(230, 236, 240);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+input:focus {
+    border: 0;
+}
+
+.sidebar-content {
+    background-color: #f1f1f1;
+    margin-top: 4rem;
+    border-radius: 5px;
+}
+
+.sidebar-content h3 {
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+.sidebar-post {
+    display: flex;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 15px;
+}
+
+.sidebar-post h5 {
+    margin-right: 5px;;
+}
+
+.sidebar-post h5, .sidebar-post p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #777;
+}

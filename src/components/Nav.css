@@ -1,0 +1,27 @@
+.tweeter {
+    margin: 0 15px;
+} 
+.navContainer {
+    display: inline-block;
+    padding: 30px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+li img {
+    margin-right: 15px;
+}
+
+.active, .tweeter {
+    color: rgb(29, 161, 242);
+}
+

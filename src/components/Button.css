@@ -1,0 +1,16 @@
+.btn {
+    color: rgb(255, 255, 255);
+    margin: 0 25px;
+    padding: 20px 90px;
+    background-color:  rgb(29, 161, 242);
+    border: none;
+    border-radius: 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 28px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
