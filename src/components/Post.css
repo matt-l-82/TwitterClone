@@ -10,10 +10,6 @@
     border-bottom: 1px solid rgb(230, 236, 240);
 }
 
-.author {
-    margin-bottom: 10px;
-}
-
 .post-container img {
     width: 60px;
     border-radius: 50%;
@@ -21,7 +17,7 @@
 }
 
 .post-content p {
-    margin-bottom: 10px;
+    margin: 5px 0;
 }
 
 .post-icons {
@@ -39,5 +35,39 @@ img.post-image {
     display: block;
     border-radius: 10px;
     margin: 10px 0;
+}
 
+h4 {
+    display: inline-block;
+}
+
+.author-at::after {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #999;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.author-at,
+.timeLapse {
+    font-size: 1rem;
+    color: #999;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left: 5px;   
+}
+
+p{
+    display: inline-block;
+} 
+
+
+.hashTag {
+    display: inline-block;
+    color: rgb(29, 161, 242);
+    font-weight: 400;;
 }

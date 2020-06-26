@@ -22,9 +22,9 @@ export default function Post(props) {
             </div>
             <div>
                 <div className="post-content">
-                    <h4 className="author">{props.author}</h4>
-                    <p className="post-content">{props.content}</p>
-                    <a href="/"><img className="post-image" src={props.tweetImg} alt="stuff"/></a>
+                <h4 className="author">{props.author}</h4><h4 className="author-at">{props.at}</h4><h4 className="timeLapse">{props.timeLapse}</h4>
+                <p className="post-content">{props.content}</p><h4 className="hashTag">{props.hashTag}</h4>
+                    <a href="/"><img className="post-image" src={props.tweetImg} alt="#"/></a>
                     <div className="post-icons">
                         <a href="/"><img src={speech} alt="stuff"/></a>
                         <a href="/"><img src={arrows} alt="stuff"/></a>

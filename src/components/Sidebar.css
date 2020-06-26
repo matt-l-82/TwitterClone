@@ -20,33 +20,57 @@ input {
 }
 
 input:focus {
-    border: 0;
+    outline: none;
+}
+
+.sidebar-parent {
+    padding: 10px;
 }
 
 .sidebar-content {
     background-color: #f1f1f1;
     margin-top: 4rem;
     border-radius: 5px;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 .sidebar-content h3 {
     padding: 15px;
     font-size: 1.3rem;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 .sidebar-post {
-    display: flex;
-    border-top: 1px solid #d9d9d9;
-    border-bottom: 1px solid #d9d9d9;
+    display: flex; 
+    flex-direction: column;
     padding: 15px;
 }
 
 .sidebar-post h5 {
-    margin-right: 5px;;
+    margin-right: 5px;
+}
+
+.sidebar-post h5::after {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #999;
+    vertical-align: middle;
+    margin-left: 5px;
 }
 
 .sidebar-post h5, .sidebar-post p {
     font-size: 0.8rem;
     font-weight: 300;
     color: #777;
+}
+
+.titleTime {
+    display: flex;
+}
+
+.titleTime div {
+    display: block;
 }

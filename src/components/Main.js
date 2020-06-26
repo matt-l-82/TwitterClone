@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import Post from '../components/Post';
 
 import avatar from '../img/avatar.png';
+import man from '../img/man.jpg';
 import star from '../img/star.png';
 import gif from '../img/gif.png';
 import statistics from '../img/statistics.png';
@@ -11,6 +12,7 @@ import photo from '../img/photo.png';
 import smiley from '../img/smile.png';
 import flower from '../img/flower.jpg';
 import lake from '../img/lake.jpg';
+import mountainView from '../img/mountain-view.jpg';
 
 
 function Header(props) {
@@ -37,8 +39,8 @@ function Header(props) {
                 </div>
             </div>
         </div>
-        <Post avatar={avatar} author={"Matt"} content={"Bacon ipsum dolor amet pork spare ribs rump porchetta pig"} tweetImg={lake}/> 
-        <Post avatar={avatar} author={"Laura"} content={"Bacon ipsum dolor amet tail flank swine, meatball ham hock ham prosciutto cow beef ribs leberkas porchetta. Sausage pork belly shankle t-bone."} tweetImg={lake}/>
+        <Post avatar={man} author={"Matt"} at={" @Sketch_Comedy_Fan"} timeLapse={"3m"} content={"Bacon ipsum dolor amet pork spare ribs rump porchetta pig."} hashTag={"#stunningView"} tweetImg={lake}/> 
+        <Post avatar={avatar} author={"Laura"} at={" @world_traveller"} timeLapse={"1hr"} content={"Bacon ipsum dolor amet tail flank swine, meatball ham hock ham prosciutto cow beef ribs leberkas porchetta. Sausage pork belly shankle t-bone."} hashTag={"#TravelWithMe #DreamBig"} tweetImg={mountainView}/>
     </div>/* End Main wrapper */   
      
     )
